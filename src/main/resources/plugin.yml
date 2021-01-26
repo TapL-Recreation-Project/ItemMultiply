@@ -2,7 +2,7 @@ name: Itemmultiply
 version: ${project.version}
 main: me.swipez.itemmultiply.Itemmultiply
 api-version: 1.16
-  commands:
-    dupechallenge:
-      usage: /dupechallenge
-      description: Starts the game!
+commands:
+  dupechallenge:
+    usage: /dupechallenge
+    description: Starts the game!
