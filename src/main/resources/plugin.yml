@@ -1,0 +1,4 @@
+name: Itemmultiply
+version: ${project.version}
+main: me.swipez.itemmultiply.Itemmultiply
+api-version: 1.16
