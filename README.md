@@ -11,3 +11,5 @@ Do whatever you want with it.... maybe even contribute :flushed:
 :flushed:
 
 [bStats page](https://bstats.org/plugin/bukkit/Damage%20Dupe/10205)
+
+Discord for project: https://discord.gg/TkRqzY6eGn
