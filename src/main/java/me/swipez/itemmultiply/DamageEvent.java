@@ -21,9 +21,7 @@ public class DamageEvent implements Listener {
             ItemStack[] base = p.getInventory().getContents();
 
             for(int i = 0; i < 41; ++i) {
-                if (base[i] == null) {
-                    ++i;
-                } else {
+                if (base[i] != null) {
                     int newcount = base[i].getAmount() * 2;
                     if (newcount > 127) {
                         base[i].setAmount(newcount - 127);
