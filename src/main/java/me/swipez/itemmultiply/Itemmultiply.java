@@ -11,7 +11,4 @@ public final class Itemmultiply extends JavaPlugin {
         this.getServer().getPluginManager().registerEvents(new DamageEvent(this), this);
         this.getCommand("dupechallenge").setExecutor(new StartGame(this));
     }
-
-    public void onDisable() {
-    }
 }
