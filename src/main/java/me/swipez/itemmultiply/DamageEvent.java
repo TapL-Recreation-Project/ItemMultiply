@@ -16,8 +16,8 @@ public class DamageEvent implements Listener {
 
     @EventHandler
     public void onDamage(EntityDamageEvent e) {
-        if (this.plugin.gamestarted && e.getEntity().getType() == EntityType.PLAYER) {
-            Player p = (Player)e.getEntity();
+        if (plugin.gamestarted && e.getEntity() instanceof Player) {
+            Player p = (Player) e.getEntity();
             ItemStack[] base = p.getInventory().getContents();
 
             for(int i = 0; i < 41; ++i) {
